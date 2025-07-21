@@ -1,0 +1,23 @@
+{
+    "testId": "c0ae6c25-f7aa-477b-93d3-c3056406d402",
+    "name": "Test Mapscript",
+    "version": "1.0.0",
+    "manifestVersion": 2,
+    "requirements": {
+        "apps": [
+            {
+                "name": "Express",
+                "apiVersion": 1
+            }
+        ],
+        "experimentalApis": true
+    },
+    "entryPoints": [
+        {
+            "type": "panel",
+            "id": "panel1",
+            "main": "index.html",
+            "documentSandbox": "code.js"
+        }
+    ]
+}
